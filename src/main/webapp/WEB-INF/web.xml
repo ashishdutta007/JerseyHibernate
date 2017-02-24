@@ -16,6 +16,7 @@
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
+	<!-- Map incoming requests to specific Dispatcher Servlet -->
 	<servlet-mapping>
 		<servlet-name>controlServlet</servlet-name>
 		<url-pattern>/webapi/*</url-pattern>
